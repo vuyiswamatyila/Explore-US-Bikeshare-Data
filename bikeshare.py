@@ -252,7 +252,7 @@ def user_stats(df):
     
 def get_raw_data(df):
     """
-    Prompt the user if they want to see 5 lines of raw data, display that data if the answer is 'yes', 
+    Asks the user if they want to see 5 lines of raw data, display that data if the answer is 'yes', 
     and continue these prompts and displays until the user says 'no'
     
     """
