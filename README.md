@@ -1,4 +1,4 @@
-DATE CREATED: 04/12/2019
+﻿DATE CREATED: 04/12/2019
 
 EXPLORE US BIKESHARE DATA
 
@@ -42,7 +42,8 @@ earliest, most recent, most common year of birth (only available for NYC and Chi
 
 
 SOFTWARE REQUIREMENTS
-To complete the project I used the following software:
+
+To complete the project, I used the following software:
 
 Text editor. You can use any text editor of your choice. I used Visual Studio Code to write the python code. 
 Jupyter notebook - to test each module of the project
@@ -50,6 +51,7 @@ Terminal application (Windows OS) - to test the full project before submission.
 
 
 REFERENCES
+
 1. https://docs.python.org/3/library/exceptions.html
 
 2. https://www.includehelp.com/python/FileNotFoundError.aspx
