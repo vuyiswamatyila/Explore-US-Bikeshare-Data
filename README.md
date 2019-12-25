@@ -51,11 +51,11 @@ Below is a list of all the BikeShare data statistics that are computed by the pr
 To complete the project, I used the following software:
 
 1. Text editor. You can use any text editor of your choice. I used Visual Studio Code to write the python code. 
-2. Jupyter notebook - to test each module of the project
+2. Jupyter notebook - to test each module of the project. [Installation instructions](https://jupyter.readthedocs.io/en/latest/install.html)
 3. Terminal application (Windows OS) - to test the full project before submission.
 
 
-### REFERENCES
+### RESOURCES
 
 1. https://docs.python.org/3/library/exceptions.html
 
