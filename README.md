@@ -1,21 +1,21 @@
-﻿DATE CREATED: 04/12/2019
+﻿###DATE CREATED: 04/12/2019
 
-EXPLORE US BIKESHARE DATA
+###EXPLORE US BIKESHARE DATA
 
 This project was completed as part of the Udacity Programming for Data Science for Enterprise Nanodegree Program.
 
-OVERVIEW
+###OVERVIEW
 
 Make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. Build an interactive environment where a user can filter data by any of the 3 cities and calculate statistics on the data set entered. 
 
-DATA SOURCES
+###DATA SOURCES
 
 Below are 3 files that were used to analyse the US Bikeshare Data. These files are can be found in the csv folder.
-chicago.csv
-new-york-city.csv
-washington.csv
+1. chicago.csv
+2. new-york-city.csv
+3. washington.csv
 
-STATISTICS COMPUTED
+###STATISTICS COMPUTED
 
 1. Popular times of travel (i.e., occurs most often in the start time)
 
@@ -41,7 +41,7 @@ counts of each gender (only available for NYC and Chicago)
 earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 
-SOFTWARE REQUIREMENTS
+###SOFTWARE REQUIREMENTS
 
 To complete the project, I used the following software:
 
@@ -50,7 +50,7 @@ Jupyter notebook - to test each module of the project
 Terminal application (Windows OS) - to test the full project before submission.
 
 
-REFERENCES
+###REFERENCES
 
 1. https://docs.python.org/3/library/exceptions.html
 
