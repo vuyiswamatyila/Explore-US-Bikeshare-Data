@@ -165,7 +165,7 @@ def time_stats(df):
     start_time = time.time()
     # TO DO: display the popular month
     popular_month = df['month'].mode()[0]
-    print('The most popular month is', popular_month)
+    print('The most popular month is {}'.format(popular_month))
 
     # TO DO: display the most popular day of week
     popular_day = df['day_of_week'].mode()[0]
@@ -225,12 +225,12 @@ def user_stats(df):
     start_time = time.time()
     # Display counts of user types
     user_types = df['User Type'].value_counts()
-    print('Display counts of user types:\n', user_types,'\n')
+    print('Display counts of user types:\n {}'.format(user_types),'\n')
 
     # Display counts of gender
     if 'Gender' in df:
         gender_types = df['Gender'].value_counts()
-        print('Display counts of gender:\n', gender_types,'\n')
+        print('Display counts of gender:\n {}'.format(gender_types),'\n')
     else:
         print('There is no gender data available for Washington')
 
@@ -252,7 +252,7 @@ def user_stats(df):
     
 def get_raw_data(df):
     """
-    Prompt the user if they want to see 5 lines of raw data, display that data if the answer is 'yes', 
+    Asks the user if they want to see 5 lines of raw data, display that data if the answer is 'yes', 
     and continue these prompts and displays until the user says 'no'
     
     """
